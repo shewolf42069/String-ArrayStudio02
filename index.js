@@ -3,7 +3,7 @@ let protoArray2 = "A;C;M;E";
 let protoArray3 = "space delimited string";
 let protoArray4 = "Comma-spaces, might, require, typing, caution";
 
-let arr = protoArray4;
+let arr = protoArray1;
 //const input = require('readline-sync');
 
 strings = [protoArray1, protoArray2, protoArray3, protoArray4];
@@ -15,7 +15,7 @@ strings = [protoArray1, protoArray2, protoArray3, protoArray4];
     if (arr.includes(",")) {
       console.log("commas are the delimiter");
 
-      let newP1 = protoArray1.split(",");
+      let newP1 = arr.split(",");
       console.log(newP1);
       let rev1P1 = newP1.reverse();
       console.log(rev1P1);
